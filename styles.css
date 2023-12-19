@@ -1,33 +1,42 @@
-.navbar-oben ul {
-    list-style-type: none;
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header h1 {
+    margin: 15px;
+}
+
+
+
+#navbar-top {
+    font-size: large;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    background-color: black;
+}
+
+#navbar-top ul {
+    margin: 0;
+    align-items: center;
+}
+
+#navbar-top li {
+    display: inline;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+}
+
+
+#navbar-top a {
+    margin: 0px;
+    padding: 15px;
     color: aliceblue;
-    background-color: #333;
-
-}
-
-.navbar-oben li {
-    display: inline;
-    float: left;
-}
-
-.navbar-oben li a {
-    display: block;
-    padding: 8px;
-    color: white;
-    text-align: center;
-    padding: 10px 16px;
     text-decoration: none;
 }
 
-
-.navbar-links ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    color: aliceblue;
-    background-color: #333;
+#navbar-top a:hover {
+    background-color: grey;
 }
