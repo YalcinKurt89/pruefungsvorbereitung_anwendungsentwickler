@@ -42,11 +42,12 @@ header h1 {
 
 
 
-
-#nav-left {
+#section-1 div ol {
+    padding: 15px;
     width: 10%;
-    color: black;
-    background-color: grey;
-    text-decoration: none;
 }
 
+#section-1 div ol li {
+    color: black;
+    display: block;
+}
