@@ -3,22 +3,20 @@ body {
     margin: 0;
 }
 
-header h1 {
-    margin: 15px;
-    position: fixed;
 
+/**********************/
+/*** Navigation top ***/
+/**********************/
+.home-btn a:hover {
+    background-color: #2a623d;
 }
 
-
-
-/*** Navigation top ***/
-
 #navbar-top {
-    font-size: large;
-    width: 100%;
+    list-style-type: none;
     margin: 0;
     padding: 15px;
-    background-color: black;
+    overflow: hidden;
+    background-color: #000000;
 }
 
 #navbar-top ul {
@@ -28,19 +26,36 @@ header h1 {
 
 #navbar-top li {
     display: inline;
+    float: left;
     margin: 0;
     padding: 0;
 }
 
-#navbar-top a {
-    margin: 0px;
+
+/******************************/
+/*** Navigation top buttons ***/
+/******************************/
+.home-btn a {
+    margin: 0;
     padding: 15px;
-    color: aliceblue;
+    color: white;
+    background-color: #1a472a;
     text-decoration: none;
 }
 
-#navbar-top a:hover {
-    background-color: grey;
+.home-btn a:hover {
+    background-color: #2a623d;
+}
+
+.subject-btn a {
+    margin: 0;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.subject-btn a:hover {
+    background-color: #aaaaaa;
 }
 
 
