@@ -5,11 +5,14 @@ body {
 
 header h1 {
     margin: 15px;
+    position: fixed;
+
 }
 
 
 
 /*** Navigation top ***/
+
 #navbar-top {
     font-size: large;
     width: 100%;
@@ -39,6 +42,15 @@ header h1 {
 #navbar-top a:hover {
     background-color: grey;
 }
+
+
+
+/*** Section 1 ***/
+
+#section-1 {
+    display: inline;
+}
+
 
 
 
