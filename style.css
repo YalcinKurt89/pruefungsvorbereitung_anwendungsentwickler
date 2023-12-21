@@ -4,11 +4,13 @@ body {
 }
 
 
+
+
 /**********************/
-/*** Navigation top ***/
+/*   Navigation top   */
 /**********************/
-.home-btn a:hover {
-    background-color: #2a623d;
+#section-0 h1 {
+    text-align: center;
 }
 
 #navbar-top {
@@ -18,22 +20,25 @@ body {
     overflow: hidden;
     background-color: #000000;
 }
-
 #navbar-top ul {
-    margin: 0;
-    align-items: center;
+    margin: 0 10px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
-
 #navbar-top li {
-    display: inline;
-    float: left;
     margin: 0;
     padding: 0;
+    display: block;
+    float: left;
 }
+
+
 
 
 /******************************/
-/*** Navigation top buttons ***/
+/*   Navigation top buttons   */
 /******************************/
 .home-btn a {
     margin: 0;
@@ -42,48 +47,47 @@ body {
     background-color: #1a472a;
     text-decoration: none;
 }
-
 .home-btn a:hover {
     background-color: #2a623d;
 }
-
 .subject-btn a {
     margin: 0;
     padding: 15px;
     color: white;
     text-decoration: none;
 }
-
 .subject-btn a:hover {
     background-color: #aaaaaa;
 }
 
 
 
-/*** Section 1 ***/
 
+/******************************/
+/*         Section 1          */
+/******************************/
 #section-1 {
-    display: inline;
+    display: flex;
+    justify-content: center;
 }
 
 
 
 
-/*** Navigation left ***/
-
+/******************************/
+/*      Navigation left       */
+/******************************/
 nav {
     width: 250px;
     margin: 0px;
     padding: 0px;
     background-color: #f1f1f1;
 }
-
 .nav-left-items a {
     color: black;
     display: block;
     text-decoration: none;
 }
-
 .nav-left-items a:hover {
     background-color: grey;
 }
