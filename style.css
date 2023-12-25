@@ -12,7 +12,7 @@ body {
 /**********************/
 
 header {
-    position: fixed;
+    position: 0 fixed;
     width: 100%;
     background-color: white;
 }
@@ -38,9 +38,7 @@ header {
     background-color: #04AA6D;
 }
 
-section {
 
-}
 
 
 /******************************/
@@ -50,15 +48,39 @@ section {
 
 
 
+/******************************/
+/*      Navigation left       */
+/******************************/
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navigation li {
+    margin-right: 20px;
+}
+.content {
+    display: none;
+    margin-top: 20px;
+}
+.content.active {
+    display: block;
+}
+
 
 /******************************/
 /*         Section 1          */
 /******************************/
-
-
-
-
-
-/******************************/
-/*      Navigation left       */
-/******************************/
+#contentGrundlagen {
+    display: none;
+}
+#contentWasserfallmodell{
+    display: none;
+}
+#contentNetzplan {
+    display: none;
+}
