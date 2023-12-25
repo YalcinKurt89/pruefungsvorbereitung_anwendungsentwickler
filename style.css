@@ -10,34 +10,7 @@ body {
 /**********************/
 /*   Navigation top   */
 /**********************/
-#section-0 {
-    margin: 0;
-    background-color: #aaaaaa;
-}
-#section-0 h1 {
-    margin: 0;
-    padding: 15px;
-}
-#section-0 p {
-    margin: 15px 0;
-    padding: 0 15px;
-}
 
-
-#navbar-top {
-    margin: 0;
-    padding: 15px 0;
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #000000;
-}
-#navbar-top ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-}
 
 
 
@@ -45,27 +18,7 @@ body {
 /******************************/
 /*   Navigation top buttons   */
 /******************************/
-.home-btn a {
-    margin: 0;
-    padding: 15px;
-    color: white;
-    background-color: #1a472a;
-    text-decoration: none;
-}
-.home-btn a:hover {
-    background-color: #2a623d;
-}
 
-
-.subject-btn a {
-    margin: 0;
-    padding: 25px;
-    color: white;
-    text-decoration: none;
-}
-.subject-btn a:hover {
-    background-color: #aaaaaa;
-}
 
 
 
@@ -73,10 +26,7 @@ body {
 /******************************/
 /*         Section 1          */
 /******************************/
-#section-1 {
-    display: flex;
-    justify-content: flex-start;
-}
+
 
 
 
@@ -84,17 +34,3 @@ body {
 /******************************/
 /*      Navigation left       */
 /******************************/
-nav {
-    width: 250px;
-    margin: 0px;
-    padding: 0px;
-    background-color: #aaaaaa;
-}
-.nav-left-items a {
-    color:#000000;
-    display: block;
-    text-decoration: none;
-}
-.nav-left-items a:hover {
-    background-color: grey;
-}
