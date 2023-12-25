@@ -16,28 +16,27 @@ body {
 }
 #section-0 h1 {
     margin: 0;
-    padding: 1em;
-    text-align: center;
-}
-#navbar-top {
-    list-style-type: none;
-    margin: 0;
     padding: 15px;
+}
+#section-0 p {
+    margin: 15px 0;
+    padding: 0 15px;
+}
+
+
+#navbar-top {
+    margin: 0;
+    padding: 15px 0;
+    list-style-type: none;
     overflow: hidden;
     background-color: #000000;
 }
 #navbar-top ul {
-    margin: 0 10px;
+    margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
-    justify-content: center;
-}
-#navbar-top li {
-    margin: 0;
-    padding: 0;
-    display: block;
-    float: left;
+    justify-content: space-between;
 }
 
 
@@ -56,9 +55,11 @@ body {
 .home-btn a:hover {
     background-color: #2a623d;
 }
+
+
 .subject-btn a {
     margin: 0;
-    padding: 15px;
+    padding: 25px;
     color: white;
     text-decoration: none;
 }
