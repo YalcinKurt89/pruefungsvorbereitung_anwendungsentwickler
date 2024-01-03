@@ -58,7 +58,7 @@ header {
 }
 .navigation li {
     margin-right: 20px;
-        display: grid;
+    display: grid;
     grid-template-rows: auto auto;
 }
 .content {
@@ -75,17 +75,29 @@ header {
 /******************************/
 
 #section-1 {
-    width: 15%;
-}
-#section-1 div {
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-columns: 10% auto;
 }
-#section-1 div a {
-    text-decoration: none;
+#nav-btns {
+    grid: 1;
+}
+.nav-btn a {
     padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    display: grid;
+    grid-template-rows: 20px;
 }
-#section-1 div a:hover {
+.nav-btn a:hover {
     color: #f2f2f2;
     background-color: #007047;
 }
+
+
+#nav-topic {
+    grid: 2;
+}
+
+/******************************/
+/*         Section 2          */
+/******************************/
