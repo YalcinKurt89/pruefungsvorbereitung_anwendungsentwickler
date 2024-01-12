@@ -98,13 +98,3 @@ header {
 #nav-topic {
     grid: 2;
 }
-
-#content {
-    width: 400px;
-    background-color: #fff;
-    padding: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    color: #444;
-    margin: 0 auto;
-}
