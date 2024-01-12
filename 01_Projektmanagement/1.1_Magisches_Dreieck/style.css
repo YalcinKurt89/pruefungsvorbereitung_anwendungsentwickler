@@ -78,7 +78,7 @@ header {
 
 #section-1 {
     display: grid;
-    grid-template-columns: 15% auto;
+    grid-template-columns: 15% auto 20%;
 }
 #nav-btns {
     grid: 1;
