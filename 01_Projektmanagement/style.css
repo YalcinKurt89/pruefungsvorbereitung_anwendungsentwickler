@@ -105,6 +105,8 @@ header {
 /* GRID 2 */
 .mainpage {
     grid: 2;
+    margin-left: 5%;
+    margin-right: 30%;
 }
 
 
