@@ -98,3 +98,28 @@ nav {
   #myBtn:hover {
     background-color: #555;
   }
+
+/******************************/
+/*         Nav left           */
+/******************************/
+#nav-left {
+    width: 20%;
+}
+#nav-left a{
+    color: black;
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+#nav-left a:hover{
+    color: white;
+    background-color: #007047;
+}
+#page {
+    display: flex;
+}
+#content {
+    width: 60%;
+    margin-left: 20px;
+}

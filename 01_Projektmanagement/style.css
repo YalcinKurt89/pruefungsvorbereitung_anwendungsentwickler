@@ -47,34 +47,8 @@ header {
     background-color: #04AA6D;
 }
 /******************************/
-/*         Nav left           */
-/******************************/
-#nav-left {
-    width: 20%;
-}
-#nav-left a{
-    color: black;
-    display: block;
-    padding: 10px;
-    font-size: 17px;
-    text-decoration: none;
-}
-#nav-left a:hover{
-    color: white;
-    background-color: #007047;
-}
-#page {
-    display: flex;
-}
-#content {
-    width: 60%;
-    margin-left: 20px;
-}
-
-/******************************/
 /*     Magisches Dreieck      */
 /******************************/
-
 #magischesdreieck-tabelle {
     width: 100%;
 }
@@ -86,4 +60,4 @@ header {
 
 #magischesdreieck-tabelle span{
     font-size: x-large;
-}
+} */
