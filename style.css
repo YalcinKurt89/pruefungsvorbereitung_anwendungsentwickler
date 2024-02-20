@@ -20,14 +20,14 @@ header {
     position: sticky;
     top: 0;
 }
-header h1 {
+header h1, header p {
     margin: 0;
     padding: 10px;
+    text-align: center;
 }
 .topnav {
     background-color: #333;
     overflow: hidden;
-    background-color: #333;
 }
 .topnav a {
     padding: 15px 16px;
