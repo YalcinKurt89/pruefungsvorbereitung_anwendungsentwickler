@@ -7,6 +7,10 @@ body {
     overflow-y: scroll;
 }
 
+p {
+    text-align: justify;
+}
+
 /* HOME */
 /**********************/
 /*   Navigation top   */
@@ -63,6 +67,23 @@ header {
     display: flex;
 }
 #content {
-    width: 80%;
+    width: 60%;
     margin-left: 20px;
+}
+
+/******************************/
+/*     Magisches Dreieck      */
+/******************************/
+
+#magischesdreieck-tabelle {
+    width: 100%;
+}
+#magischesdreieck-tabelle td{
+    padding: 10px;
+    text-align: justify;
+    vertical-align: top;
+}
+
+#magischesdreieck-tabelle span{
+    font-size: x-large;
 }
