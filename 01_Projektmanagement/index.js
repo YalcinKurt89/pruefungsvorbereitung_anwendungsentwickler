@@ -8,6 +8,8 @@ function draw() {
       ctx.moveTo(300, 200);
       ctx.lineTo(100, 200);
       ctx.lineTo(200, 100);
+      ctx.fillStyle = "green";
+      ctx.strokeStyle = "green";
       ctx.closePath();
       ctx.stroke();
 
