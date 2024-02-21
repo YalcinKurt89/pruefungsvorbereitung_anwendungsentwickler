@@ -1,7 +1,7 @@
 /******************************/
 /*     Magisches Dreieck      */
 /******************************/
-/* #magischesdreieck-tabelle {
+#magischesdreieck-tabelle {
     width: 100%;
 }
 #magischesdreieck-tabelle td{
@@ -12,4 +12,4 @@
 
 #magischesdreieck-tabelle span{
     font-size: x-large;
-} */
+}
