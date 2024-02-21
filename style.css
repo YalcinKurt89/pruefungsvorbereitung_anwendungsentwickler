@@ -9,7 +9,6 @@ body {
 p {
     text-align: justify;
 }
-/* HOME */
 /**********************/
 /*   Navigation top   */
 /**********************/
@@ -52,31 +51,6 @@ header h1, header p {
     background-color: #04AA6D;
 }
 /******************************/
-/*         Section 1          */
-/******************************/
-#section-1 {
-    display: grid;
-    grid-template-columns: 15% auto 15%;
-}
-#nav-btns {
-    grid: 1;
-}
-.nav-btn a {
-    padding: 15px;
-    margin-right: 10px;
-    text-decoration: none;
-    display: grid;
-    grid-template-rows: 20px;
-    transition: background-color 0.3s;
-}
-.nav-btn a:hover {
-    color: #f2f2f2;
-    background-color: #007047;
-}
-#nav-topic {
-    grid: 2;
-}
-/******************************/
 /*       To Top Button        */
 /******************************/
 #myBtn {
@@ -95,13 +69,21 @@ header h1, header p {
     border-radius: 5px;
 }
 #myBtn:hover {
-background-color: #555;
+    background-color: #555;
+}
+/******************************/
+/*           Page             */
+/******************************/
+#page {
+    display: flex;
 }
 /******************************/
 /*         Nav left           */
 /******************************/
 #nav-left {
-    width: 20%;
+    width: 15em;
+    background-color: lightgray;
+    word-wrap: break-word;
 }
 #nav-left a{
     color: black;
@@ -113,9 +95,6 @@ background-color: #555;
 #nav-left a:hover{
     color: white;
     background-color: #007047;
-}
-#page {
-    display: flex;
 }
 #content {
     width: 60%;
