@@ -8,6 +8,7 @@ body {
 
 p {text-align: justify;}
 
+
 /**********************/
 /*   Navigation top   */
 /**********************/
@@ -46,6 +47,8 @@ header h1, header p {
 }
 
 .topnav a.active:hover {color: white; background-color: #04AA6D;}
+
+
 /******************************/
 /*       To Top Button        */
 /******************************/
@@ -67,10 +70,12 @@ header h1, header p {
 
 #myBtn:hover {background-color: #555;}
 
+
 /******************************/
 /*           Page             */
 /******************************/
 #page {display: flex;}
+
 
 /******************************/
 /*         Nav left           */
