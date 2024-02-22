@@ -1,14 +1,13 @@
-html {
-    scroll-behavior: smooth;
-}
+html {scroll-behavior: smooth;}
+
 body {
     font-family: Verdana, Tahoma, sans-serif;
     margin: 0;
     overflow-y: scroll;
 }
-p {
-    text-align: justify;
-}
+
+p {text-align: justify;}
+
 /**********************/
 /*   Navigation top   */
 /**********************/
@@ -19,15 +18,15 @@ header {
     position: sticky;
     top: 0;
 }
+
 header h1, header p {
     margin: 0;
     padding: 10px;
     text-align: center;
 }
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-}
+
+.topnav {background-color: #333; overflow: hidden;}
+
 .topnav a {
     padding: 15px 16px;
     float: left;
@@ -37,19 +36,16 @@ header h1, header p {
     font-size: 17px;
     transition: background-color 0.5s;
 }
-.topnav a:hover {
-    color: black;
-    background-color: #ddd;
-}
+
+.topnav a:hover {color: black; background-color: #ddd;}
+
 .topnav a.active {
     color: white;
     background-color: #007047;
     transition: background-color 0.3s;
 }
-.topnav a.active:hover {
-    color: white;
-    background-color: #04AA6D;
-}
+
+.topnav a.active:hover {color: white; background-color: #04AA6D;}
 /******************************/
 /*       To Top Button        */
 /******************************/
@@ -68,15 +64,14 @@ header h1, header p {
     padding: 15px;
     border-radius: 5px;
 }
-#myBtn:hover {
-    background-color: #555;
-}
+
+#myBtn:hover {background-color: #555;}
+
 /******************************/
 /*           Page             */
 /******************************/
-#page {
-    display: flex;
-}
+#page {display: flex;}
+
 /******************************/
 /*         Nav left           */
 /******************************/
@@ -92,11 +87,6 @@ header h1, header p {
     font-size: 17px;
     text-decoration: none;
 }
-#nav-left a:hover{
-    color: white;
-    background-color: #007047;
-}
-#content {
-    width: 60%;
-    margin-left: 20px;
-}
+#nav-left a:hover{color: white; background-color: #007047;}
+
+#content {width: 60%; margin-left: 20px;}

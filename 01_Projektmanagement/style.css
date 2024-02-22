@@ -1,18 +1,14 @@
 /******************************/
 /*     Magisches Dreieck      */
 /******************************/
-#magischesdreieck-tabelle {
-    width: 100%;
-}
+#magischesdreieck-tabelle {width: 100%;}
+
 #magischesdreieck-tabelle td{
     padding: 10px;
     text-align: justify;
     vertical-align: top;
 }
 
-#magischesdreieck-tabelle span{
-    font-size: x-large;
-}
-#zeichnung_dreieck {
-    text-align: center;
-}
+#magischesdreieck-tabelle span{font-size: x-large;}
+
+#zeichnung_dreieck {text-align: center;}
