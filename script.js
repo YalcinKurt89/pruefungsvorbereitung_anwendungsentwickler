@@ -27,3 +27,19 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+// Greeting
+const time = new Date().getHours();
+let greeting;
+if (time >= 5 && time <= 11 ) {
+  greeting = "Guten Morgen!";
+} else if (time > 11 && time <= 18) {
+  greeting = "Guten Tag!";
+} else if (time > 18 && time <= 22) {
+  greeting = "Guten Abend!";
+} else {
+  greeting = "Hallo!";
+}
+
+document.getElementById("gruss").innerHTML = greeting;
